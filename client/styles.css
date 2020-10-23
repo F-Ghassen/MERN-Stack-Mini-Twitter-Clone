@@ -1,0 +1,61 @@
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.m-form,
+.loading {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+}
+
+.tweets {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.tweets > div {
+  background: hsl(0, 0%, 95%);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.tweets > div > h4 {
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.tweets > div > p {
+  word-wrap: break-word;
+}
+
+.tweets > div > img {
+  width: 30px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tweets > div > span {
+  cursor: pointer;
+  color: red;
+  float: right;
+  margin-left: 10px;
+}
+
+.fa-edit {
+  color: green;
+}
+
+.tweets > div > span:hover {
+  transform: scale(1.2);
+}
+
+.tweets > div:not(:last-child) {
+  margin: 30px;
+}
